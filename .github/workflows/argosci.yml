@@ -39,6 +39,7 @@ jobs:
         ARGOS_TOKEN: ${{ secrets.ARGOS_TOKEN }}
         ARGOS_API_BASE_URL: ${{ secrets.ARGOS_API_BASE_URL }}
         NODE_TLS_REJECT_UNAUTHORIZED: '0'
+        DEBUG: 'argos:*'
         
     - name: Upload Playwright Report
       if: always()
