@@ -16,7 +16,11 @@ export default defineConfig({
     [
       "@argos-ci/playwright/reporter",
       // Upload only on CI.
-      createArgosReporterOptions({ uploadToArgos: !!process.env.CI }),
+      createArgosReporterOptions({
+        uploadToArgos: !!process.env.CI,
+        // Set your Argos instance URL for self-hosted (can also be set via ARGOS_API_BASE_URL env var)
+        apiBaseUrl: "https://app.yogawicak.my.id",
+      }),
     ],
   ],
   use: {
