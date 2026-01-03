@@ -6,6 +6,9 @@
     "build": "next build",
     "dev": "next dev",
     "lint": "eslint .",
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "argos:upload": "argos upload ./screenshots",
     "start": "next start"
   },
   "dependencies": {
@@ -61,6 +64,9 @@
     "zod": "3.25.76"
   },
   "devDependencies": {
+    "@argos-ci/cli": "^4.0.3",
+    "@argos-ci/playwright": "^6.3.8",
+    "@playwright/test": "^1.57.0",
     "@types/node": "^22",
     "@types/react": "^19",
     "@types/react-dom": "^19",
