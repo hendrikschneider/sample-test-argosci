@@ -19,7 +19,7 @@ export default defineConfig({
       createArgosReporterOptions({
         uploadToArgos: !!process.env.CI,
         // Set your Argos instance URL for self-hosted (can also be set via ARGOS_API_BASE_URL env var)
-        apiBaseUrl: "https://app.yogawicak.my.id",
+        apiBaseUrl: "https://api.yogawicak.my.id",
       }),
     ],
   ],
