@@ -25,14 +25,14 @@ const ACCOUNTS: AccountItem[] = [
   },
   {
     id: "2",
-    title: "Checking Account",
+    title: "Checking Account 562",
     description: "Daily expenses",
     balance: "$2,850.00",
     type: "checking",
   },
   {
     id: "3",
-    title: "Investment Portfolio",
+    title: "Investment Portfolio 874",
     description: "Stock & ETFs",
     balance: "$15,230.80",
     type: "investment",
