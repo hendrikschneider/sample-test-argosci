@@ -18,7 +18,7 @@ interface List01Props {
 const ACCOUNTS: AccountItem[] = [
   {
     id: "1",
-    title: "Main Savings 87",
+    title: "Main Savings 87243",
     description: "Personal savings",
     balance: "$8,459.45",
     type: "savings",
@@ -39,7 +39,7 @@ const ACCOUNTS: AccountItem[] = [
   },
   {
     id: "4",
-    title: "Credit Card",
+    title: "Credit Card 234",
     description: "Pending charges",
     balance: "$1,200.00",
     type: "debt",
