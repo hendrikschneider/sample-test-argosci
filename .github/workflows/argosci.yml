@@ -36,7 +36,7 @@ jobs:
       run: npx playwright test
       env:
         CI: true
-        ARGOS_TOKEN: 'argos_53ca47fc2929d29b4173908a7533847c73'
+        ARGOS_TOKEN: 'argos_5c8152e84f769314ef1d7f31575c8bc826'
         ARGOS_API_BASE_URL: 'https://api.yogawicak.my.id/v2'
         NODE_TLS_REJECT_UNAUTHORIZED: '0'
         
