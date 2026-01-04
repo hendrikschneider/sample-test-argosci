@@ -18,7 +18,7 @@ interface List01Props {
 const ACCOUNTS: AccountItem[] = [
   {
     id: "1",
-    title: "Main Savings",
+    title: "Main Savings 23",
     description: "Personal savings",
     balance: "$8,459.45",
     type: "savings",
