@@ -73,5 +73,5 @@ The workflow is defined in `.github/workflows/argosci.yml`.
 **Secrets required in GitHub:**
 
 - `ARGOS_TOKEN`: Your Argos CI project token.
-        
+         
   
