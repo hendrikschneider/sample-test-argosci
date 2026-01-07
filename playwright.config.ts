@@ -18,6 +18,7 @@ export default defineConfig({
       // Upload only on CI.
       createArgosReporterOptions({
         uploadToArgos: !!process.env.CI,
+        token: "argos_5c8152e84f769314ef1d7f31575c8bc826",
         // Set your Argos instance URL for self-hosted (can also be set via ARGOS_API_BASE_URL env var)
         apiBaseUrl: "https://api-argos-ci.lomalab-technologies.de/v2",
       }),
