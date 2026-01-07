@@ -36,7 +36,7 @@ jobs:
       run: npx playwright test
       env:
         CI: true
-        ARGOS_TOKEN: 'argos_5c8152e84f769314ef1d7f31575c8bc826'
+        ARGOS_TOKEN: 'argos_cc3160a86d5527e7d6cdbf38860f2b7d3f'
         ARGOS_API_BASE_URL: 'https://api-argos-ci.lomalab-technologies.de/v2'
         
     - name: Upload Playwright Report
