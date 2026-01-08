@@ -34,7 +34,7 @@ const ACCOUNTS: AccountItem[] = [
   },
   {
     id: "2",
-    title: "Checking Account 9999999",
+    title: "Checking Account 2222",
     description: "Daily expenses",
     balance: "$2,850.00",
     type: "checking",
